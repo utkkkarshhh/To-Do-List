@@ -1,0 +1,157 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+/* CSS by Utkarsh */
+.footer {
+  padding: 0px 0px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.userinfo {
+  display: flex;
+}
+
+.userName {
+  display: inline-flex;
+  padding: 20px 20px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 600px) {
+  .userName {
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+}
+
+.localTime {
+  display: inline-flex;
+  float: right;
+  padding: 20px 20px;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .localTime {
+    display: inline-flex;
+    float: right;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+}
+
+.restart-btn {
+  padding: 0px 8px;
+  margin: 0px 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .restart-btn {
+    padding: 2px 8px;
+    margin: 0px 5px;
+  }
+}
+
+.list {
+  text-align: center
+}
+
+.heading {
+  font-weight: 100;
+}
+
+.add-task {
+  padding: 20px 20px;
+  margin: 20px 20px;
+  height: 50px;
+  width: 600px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .add-task {
+    padding: 20px 20px;
+    margin: 20px 20px;
+    height: 50px;
+    width: 90%;
+    border-radius: 25px;
+    text-align: center;
+  }
+}
+
+.btn {
+  height: 40px;
+  border-radius: 28px;
+}
+
+input[type=checkbox]:checked + aria-label{
+  text-decoration: line-through;
+}
+
+.list-items {
+  margin: 0 auto;
+  width: 75%;
+  height: auto;
+  font-size: 20px;
+}
+
+.list-group-item:hover {
+  background-color: #D0D0D0;
+}
+
+.remove {
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-bottom: 10px;
+  }
+  .list-items {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
