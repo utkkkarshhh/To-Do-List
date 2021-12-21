@@ -29,29 +29,29 @@
       <p id="outputName"></p>
     </div>
     <div class="localTime">
-      <button type="button" class="restart-btn btn btn-danger" onClick="window.location.reload();"><i class="far fa-redo" title="Restart List"></i></button>
+      <button title="Reload Page" type="button" class="restart-btn btn btn-danger" onClick="window.location.reload();"><i class="far fa-redo" title="Restart List"></i></button>
       <p id="localTime"></p>
     </div>
   </div>
   <div class="list">
     <h2 class="heading">To-Do-List (<span id="listType"></span>)</h2>
-    <input class="add-task" type="text" id="addTask" name="task" placeholder="Add Task...">
-    <button onclick="addTask()" type="button" class="btn btn-primary"><i class="fas fa-plus"></i></button>
+    <input class="add-task" type="text" id="myInput" name="task" placeholder="Add Task...">
+    <button title="Add Item" onclick="newElement()" type="button" class="btn btn-primary"><i class="fas fa-plus"></i></button>
   </div>
 
   <div class="list-items">
-    <ul class="list-group">
+    <ul class="list-group" id="myUL">
       <li class="list-group-item">
         <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-        Play Video Games <button onclick="close" class="remove btn btn-danger" type="button" name="remove"><i class="fas fa-trash"></i></button>
+        Play Video Games
       </li>
       <li class="list-group-item">
         <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-        Finish Assignments <button onclick="close" class="remove btn btn-danger" type="button" name="remove"><i class="fas fa-trash"></i></button>
+        Finish Assignments
       </li>
       <li class="list-group-item">
         <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
-        Have Lunch <button onclick="close" class="remove btn btn-danger" type="button" name="remove"><i class="fas fa-trash"></i></button>
+        Have Lunch
       </li>
     </ul>
   </div>

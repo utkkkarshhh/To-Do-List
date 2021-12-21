@@ -63,6 +63,7 @@ body {
   .userName {
     padding: 10px 10px;
     font-size: 20px;
+    width: 55%;
   }
 }
 
@@ -77,20 +78,26 @@ body {
   .localTime {
     display: inline-flex;
     float: right;
-    padding: 10px 10px;
-    font-size: 20px;
+    padding: 12px 10px;
+    font-size: 18px;
   }
 }
 
 .restart-btn {
-  padding: 0px 8px;
-  margin: 0px 12px;
+  padding: auto auto;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
   .restart-btn {
-    padding: 2px 8px;
+    padding: 0px 6px !important;
     margin: 0px 5px;
+    height: 30% !important;
+  }
+
+  .fa-redo {
+    font-size: 12px;
+    padding: auto;
   }
 }
 
@@ -135,7 +142,12 @@ input[type=checkbox]:checked + aria-label{
   margin: 0 auto;
   width: 75%;
   height: auto;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.list-group-item {
+  margin-top: 10px;
+  border: solid 1px black;
 }
 
 .list-group-item:hover {
@@ -144,6 +156,7 @@ input[type=checkbox]:checked + aria-label{
 
 .remove {
   float: right;
+  height: 40px !important;
 }
 
 @media only screen and (max-width: 600px) {
